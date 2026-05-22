@@ -1485,18 +1485,14 @@
 	unifykey {
 		compatible = "amlogic, unifykey";
 		status = "ok";
-		unifykey-num = <0x15>;
+		unifykey-num = <0x0f>;
 		unifykey-index-0 = <0x3f>;
 		unifykey-index-1 = <0x40>;
-		unifykey-index-2 = <0x41>;
 		unifykey-index-3 = <0x42>;
 		unifykey-index-4 = <0x43>;
 		unifykey-index-5 = <0x44>;
-		unifykey-index-6 = <0x45>;
-		unifykey-index-7 = <0x46>;
 		unifykey-index-8 = <0x47>;
 		unifykey-index-9 = <0x48>;
-		unifykey-index-10 = <0x49>;
 		unifykey-index-11 = <0x4a>;
 		unifykey-index-12 = <0x4b>;
 		unifykey-index-13 = <0x4c>;
@@ -1505,8 +1501,6 @@
 		unifykey-index-16 = <0x4f>;
 		unifykey-index-17 = <0x50>;
 		unifykey-index-18 = <0x51>;
-		unifykey-index-19 = <0x52>;
-		unifykey-index-20 = <0x53>;
 
 		key_0 {
 			key-name = "usid";
@@ -1522,15 +1516,6 @@
 			key-permit = "read\0write\0del";
 			linux,phandle = <0x40>;
 			phandle = <0x40>;
-		};
-
-		key_2 {
-			key-name = "hdcp";
-			key-device = "normal";
-			key-type = "sha1";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x41>;
-			phandle = <0x41>;
 		};
 
 		key_3 {
@@ -1559,21 +1544,6 @@
 			phandle = <0x44>;
 		};
 
-		key_6 {
-			key-name = "hdcp2_tx";
-			key-device = "normal";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x45>;
-			phandle = <0x45>;
-		};
-
-		key_7 {
-			key-name = "hdcp2_rx";
-			key-device = "normal";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x46>;
-			phandle = <0x46>;
-		};
 
 		key_8 {
 			key-name = "widevinekeybox";
@@ -1589,14 +1559,6 @@
 			key-permit = "read\0write\0del";
 			linux,phandle = <0x48>;
 			phandle = <0x48>;
-		};
-
-		key_10 {
-			key-name = "hdcp22_fw_private";
-			key-device = "secure";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x49>;
-			phandle = <0x49>;
 		};
 
 		key_11 {
@@ -1661,22 +1623,6 @@
 			key-permit = "read\0write\0del";
 			linux,phandle = <0x51>;
 			phandle = <0x51>;
-		};
-
-		key_19 {
-			key-name = "hdcp2lc128";
-			key-device = "normal";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x52>;
-			phandle = <0x52>;
-		};
-
-		key_20 {
-			key-name = "hdcp2key";
-			key-device = "normal";
-			key-permit = "read\0write\0del";
-			linux,phandle = <0x53>;
-			phandle = <0x53>;
 		};
 	};
 
