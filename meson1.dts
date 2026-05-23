@@ -2091,7 +2091,7 @@
 	dvbfe {
 		compatible = "amlogic, dvbfe";
 		dev_name = "dvbfe";
-		dtv_demod0 = "ds3103";
+		dtv_demod0 = "ds3xxx";
 		dtv_demod0_i2c_adap_id = <0x02>;
 		dtv_demod0_i2c_addr = <0x6a>;
 		dtv_demod0_reset_value = <0x00>;
